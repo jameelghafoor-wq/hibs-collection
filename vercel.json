@@ -5,8 +5,8 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/admin", "destination": "/index.html" },
-    { "source": "/admin/:path*", "destination": "/index.html" }
+    { "source": "/admin", "destination": "/" },
+    { "source": "/admin/:path*", "destination": "/" }
   ],
   "headers": [
     {
